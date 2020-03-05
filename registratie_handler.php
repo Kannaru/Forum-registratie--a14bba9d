@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php
-        foreach ($_POST as $key => $value) {
-            echo "Jou $key is $value" . "<br>";
-        }
+    foreach ($_POST as $key => $value) {
+            echo "Jou $key is $value<br>";
+    }
 
     ?>
 </body>
